@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sports Gallery</title>
+  <style>
+    body {
+      background-color:white;
+      
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    h1 {
+      font-size: 31px;
+      color:darkorange;
+      margin: 20px 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      padding: 20px 60px 60px;
+      justify-items: center;
+    }
+
+    .item {
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .item:hover {
+      transform: scale(1.5);
+    }
+
+    .item img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .box{
+            
+            width: auto;
+            height: auto;
+            padding: 50px;
+            border: 2px solid black;
+            background-color: rgb(221, 49, 49);
+            
+
+        }
+  </style>
+</head>
+<body>
+
+  <h1> CAR COLLECTIONS </h1>
+  <br>
+  <div class="box">
+  <div class="gallery">
+    <div class="item">
+      <img src="rolls.jpg" alt="Rolls Royce">
+      <p class="caption">Rolls Royce</p>
+    </div>
+
+    <div class="item">
+      <img src="bmw.jpg" alt="BMW">
+      <p class="caption">BMW</p>
+    </div>
+
+    <div class="item">
+      <img src="lambo.jpg" alt="LAMBORGINI">
+      <p class="caption">LAMBORGINI</p>
+    </div>
+
+    <div class="item">
+      <img src="ferrari.jpg" alt="FERRARI">
+      <p class="caption">FERRARI</p>
+    </div>
+
+    <div class="item">
+      <img src="bugatti.jpg" alt="BUGATTI">
+      <p class="caption">BUGATTI</p>
+    </div>
+
+    <div class="item">
+      <img src="supra.jpg" alt="MK4">
+      <p class="SUPRA MK4">SUPRA</p>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
